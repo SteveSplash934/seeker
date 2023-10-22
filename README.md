@@ -107,6 +107,7 @@ Once your template is ready, **do not forget to propose it to the community via 
 
 ```bash
 git clone https://github.com/thewhiteh4t/seeker.git
+python3 -m pip install -r requirements.txt
 cd seeker/
 chmod +x install.sh
 ./install.sh
@@ -127,6 +128,7 @@ docker pull thewhiteh4t/seeker
 ### OSX
 ```bash
 git clone https://github.com/thewhiteh4t/seeker.git
+python3 -m pip install -r requirements.txt
 cd seeker/
 python3 seeker.py
 ````
@@ -152,7 +154,8 @@ options:
   -u, --update                          Check for updates
   -v, --version                         Prints version
   -t TEMPLATE, --template TEMPLATE      Auto choose the template with the given index
-  -d, --debugHTTP                       Disable auto http --> https redirection for testing purposes 
+  -d, --debugHTTP                       Disable auto http --> https redirection for testing purposes
+  -sh, --seekerHistory                  Show all your Seeker Clients
                                         (only works for the templates having index_temp.html file)
   --telegram                            Send info to a telegram bot, provide telegram token and chat to use
                                         format = token:chatId separated by a colon
