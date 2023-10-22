@@ -103,6 +103,10 @@ Once your template is ready, **do not forget to propose it to the community via 
 
 ## Installation
 
+### Requirements
+* Python3
+* ngrok [signup here and get your token](https://dashboard.ngrok.com/signup)
+
 ### Kali Linux / Arch Linux / Ubuntu / Fedora / Parrot OS / Termux
 
 ```bash
@@ -193,10 +197,10 @@ Variables:
 ##################
 
 # Step 1 : In first terminal
-$ python3 seeker.py
+$ python3 -m pip install -r requirements.txt
 
 # Step 2 : In second terminal start a tunnel service such as ngrok
-$ ./ngrok http 8080
+$ python3 seeker.py
 
 ###########
 # Options #
@@ -207,7 +211,6 @@ $ python3 seeker.py -k <filename>
 
 # Use Custom Port
 $ python3 seeker.py -p 1337
-$ ./ngrok http 1337
 
 # Pre-select a specific template
 $ python3 seeker.py -t 1
