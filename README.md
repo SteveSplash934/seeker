@@ -105,7 +105,7 @@ Once your template is ready, **do not forget to propose it to the community via 
 
 ### Requirements
 * Python3
-* ngrok [signup here and get your token](https://dashboard.ngrok.com/signup)
+* ngrok [signup here to get your token](https://dashboard.ngrok.com/signup)
 
 ### Kali Linux / Arch Linux / Ubuntu / Fedora / Parrot OS / Termux
 
